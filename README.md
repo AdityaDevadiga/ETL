@@ -62,4 +62,7 @@ step2 : Add the transformation on the dataset that is :
 step 3: Getting the all the count values from the step2 using python pandas library.and printing the data in MONGODB ATLAS.
 
 
-  
+Output Screen : ![Screenshot (5)](https://github.com/AdityaDevadiga/ETL/assets/72966036/f6bcfeec-498f-4b74-90dd-dffb1bd02405)
+
+
+
