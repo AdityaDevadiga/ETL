@@ -47,4 +47,19 @@ step3 : output will storing to local system directory.
   community edition.and print the output in the console.
 
 
+# TASK 4 : Extracting the data from the S3 bucket and based on the dataset counting number of the null rows , null columns and empty cells in the dataset and load the data into dictionary format in MONGODB ATLAS.
+
+Technology used : python(language),boto3 python library(library for extracting the data from aws s3 bucket),pandas python libarary(for reading the dataset and adding transformation on top of the dataframe using the pandas ),colab python environment,pymongo library for connecting the mongodb atlas.
+
+step1 : extracting the data from the aws s3 bucket.
+
+step2 : Add the transformation on the dataset that is :
+
+    * Count the total number of rows in the dataset.
+    * Count the number of rows with null or empty cells
+    * Count columns with null or empty cells
+    * Count the number of rows with all columns having values.
+step 3: Getting the all the count values from the step2 using python pandas library.and printing the data in MONGODB ATLAS.
+
+
   
